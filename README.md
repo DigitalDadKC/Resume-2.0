@@ -1,2 +1,5 @@
 # Resume-2.0
-Updated Resume Website with Bootstrap, JQuery, and a PHP contact form with validation.
+Updated Resume Website with Bootstrap, JQuery, and a PHP.
+
+HIGHLIGHTS
+Parallax, PHP Contact form with validation
