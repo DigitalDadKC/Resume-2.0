@@ -22,7 +22,7 @@ html {
 }
 
 h1 {
-  padding: 50px;
+  padding: 30px 0 30px 0;
   text-align: center;
 }
 
@@ -32,7 +32,7 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0;
+  padding: 60px;
 }
 
 .parallax2 {
@@ -42,7 +42,7 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 40px;
+  padding: 60px;
 }
 
 .parallax3 {
@@ -52,19 +52,23 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 40px;
+  padding: 60px;
 }
 
 #header {
   background-color: #767171;
   text-align: center;
-  border: 3px solid #ed7d31;
+  border: 5px solid #ed7d31;
   margin: 0;
 }
 
-#name {
+#hero {
   color: white;
-  padding: 10px;
+  margin-bottom: 40px;
+}
+
+#hero h1 {
+  padding: 20px;
 }
 
 #contact {
@@ -259,7 +263,7 @@ ul {
 }
 
 .timeline-checklist li, .timeline-content h4 {
-  color: #70ad47;
+  color: #ed7d31;
   font-style: italic;
 }
 
@@ -268,11 +272,7 @@ ul {
 }
 
 #skills {
-  margin: 70px 0;
-}
-
-#skills h1 {
-  text-align: center;
+  margin-bottom: 70px;
 }
 
 #circleBar {
@@ -294,7 +294,7 @@ ul {
   margin-top: -50px;
   transform: translate(-50%);
   font-size: 30px;
-  color: #70ad47;
+  color: #ed7d31;
   font-weight: 100;
 }
 
@@ -328,6 +328,22 @@ section button:hover {
 #why p {
   display: inline;
   font-size: 36px;
+}
+
+#why input, #why textarea {
+  margin: 5px;
+  background-color: #d9d9d9;
+  border: 1px solid #ed7d31;
+}
+
+#why button {
+  background-color: #4472c4;
+  color: #ffc000;
+  border: 1px solid #ed7d31;
+}
+
+.feedback {
+  font-size: 20px;
 }
 
 .typewrite {
