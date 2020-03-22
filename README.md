@@ -5,6 +5,6 @@ HIGHLIGHTS
   - Parallax
   - Flip Cards
   - Timeline
-  - Half-circle Radial Progress Bar
+  - Semicircle Radial Progress Bar
   - Typewriter effect
   - PHP Contact form with back-end email sanitization and validation
